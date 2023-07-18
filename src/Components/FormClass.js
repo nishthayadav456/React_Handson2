@@ -19,7 +19,7 @@ class FormClass extends Component{
             rate:this.state.Rating
         }
         this.state.EmpData.push(newObj);
-        this.setState({EmpData:this.state.EmpData})
+        this.setState({EmpData:this.state.EmpData,Name:" " ,Department: " ",Rating:" "})
         console.log(this.state.EmpData)
     }
     render(){
